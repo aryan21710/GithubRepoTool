@@ -18,6 +18,8 @@ const GridDisplay = (props) => {
             <AgGridReact
                 columnDefs={columnHeaders}
                 rowData={rowData}
+                pagination={true}
+                paginationAutoPageSize={true}
                 frameworkComponents={{
                     LinkComponent,
                 }}
