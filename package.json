@@ -11,6 +11,7 @@
     "ag-grid-community": "^25.0.1",
     "ag-grid-react": "^25.0.1",
     "axios": "^0.21.1",
+    "eslint": "^7.20.0",
     "notistack": "^1.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -26,6 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
     "eject": "react-scripts eject",
     "cypress": "node_modules/.bin/cypress run --spec 'cypress/integration/*.spec.js'"
   },
@@ -48,6 +51,17 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^6.5.0"
+    "cypress": "^6.5.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^22.21.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-app": "^6.2.2",
+    "eslint-plugin-react-redux": "^3.3.2",
+    "prettier": "^2.2.1"
   }
 }

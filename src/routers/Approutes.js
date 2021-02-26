@@ -7,19 +7,23 @@ import { Box } from '@material-ui/core';
 import { useStyles } from '../styles/components/login.js';
 
 const Approutes = (props) => {
-	const classes = useStyles(props);
-	return (
-		<BrowserRouter>
-			<Box className={classes.mainContainer}>
-				<Switch>
-					<Route path="/" component={Login} exact={true} />
-					<Route path="/displayuserrepo/:uname" component={DisplayRepo} strict exact={true}  />
-					<Route path="/*" component={PageNotFound} strict exact={true}  />
-
-				</Switch>
-			</Box>
-		</BrowserRouter>
-	);
+    const classes = useStyles(props);
+    return (
+        <BrowserRouter>
+            <Box className={classes.mainContainer}>
+                <Switch>
+                    <Route path='/' component={Login} exact={true} />
+                    <Route
+                        path='/displayuserrepo/:uname'
+                        component={DisplayRepo}
+                        strict
+                        exact={true}
+                    />
+                    <Route path='/*' component={PageNotFound} strict exact={true} />
+                </Switch>
+            </Box>
+        </BrowserRouter>
+    );
 };
 
 export default Approutes;

@@ -10,15 +10,15 @@ export const useStyles = makeStyles({
     },
     title: {
         color: 'white',
-        marginTop: '10px'
+        marginTop: '10px',
     },
     icon: {
         color: 'white',
-        marginRight: '1vw'
+        marginRight: '1vw',
     },
     username: {
         color: 'white',
         position: 'absolute',
-        right: '6vw'
-    }
+        right: '6vw',
+    },
 });

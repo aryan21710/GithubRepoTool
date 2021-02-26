@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-expressions */
-/* eslint-disable jest/valid-expect */
 /* eslint-disable no-undef */
 describe('Display User Repo Screen', () => {
 	var gitHubValidUserName = 'aryan21710';

@@ -7,13 +7,12 @@ import Approutes from './routers/Approutes';
 import { SnackbarProvider } from 'notistack';
 import { store } from './redux/store/store';
 
-
 const jsx = (
-	<SnackbarProvider maxSnack={3}>
-		<Provider store={store}>
-			<Approutes />
-		</Provider>
-	</SnackbarProvider>
+    <SnackbarProvider maxSnack={3}>
+        <Provider store={store}>
+            <Approutes />
+        </Provider>
+    </SnackbarProvider>
 );
 
 ReactDOM.render(jsx, document.getElementById('root'));
