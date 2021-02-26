@@ -18,7 +18,6 @@
       "plugin:flowtype/recommended",
       "plugin:react-redux/recommended",
       "prettier"
-      // "airbnb"
     ],
     "parser": "babel-eslint",
     "parserOptions": {
